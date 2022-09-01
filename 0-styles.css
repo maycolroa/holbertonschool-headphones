@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --white: #fff;
+    --color_button:#FF6565;
+    --font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --title_1: 70px;
+    --title_2:70px;
+    --p: 20px;
+
+}
+/* body */
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+    color: var(--white);
+    font-family: var(--font-family);
+}
+.container {
+    width: 99%;
+    max-width: 1300px;
+    padding: 20px 20px 20px 20px;
+}
+.header {
+    color: var(--white);
+}
+.header a{
+    color: var(--white);
+    text-decoration: none;
+}
+.logo_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.logo {
+    width: 30%;
+    padding: 0px 0px 0px 200px;
+    
+}
+.navigation ul {
+    margin: 0;
+    padding: 30px auto;
+    list-style: none;
+}
+
+.navigation ul li a:hover{
+    color: var(--color_button);
+    text-decoration:none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+.title_1 {
+    width: 100%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 150px 311px 0px 300px;
+}
+
+.title_2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+.container_of_text a {
+    text-decoration: none;
+    color: var(--white);
+    background: #FF6565;
+    border-radius: 22px;
+    font-family:var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 40px 10px 40px;
+}
+
+.container_of_text .button{
+    text-align: center;
+    padding: 10px 10px 80px 10px;
+}
+
+.container_of_text p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    font-family:var(--font-family);
+    color: var(--white);
+    width: 80%;
+    text-align: center;
+    padding: 0px 0px 0px 300px;
+}
